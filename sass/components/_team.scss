@@ -79,12 +79,12 @@
   color: #afb1b8;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.team__link:hover,
-.team__link:focus {
-  background-color: var(--accent-color);
-  color: #fff;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: #fff;
+  }
 }
 
 .team__link-icon {

@@ -94,11 +94,11 @@
   color: #fff;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.footer__social-link:hover,
-.footer__social-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer__social-icon {
@@ -139,10 +139,10 @@
   border-radius: 4px;
   background-color: inherit;
   color: rgba(255, 255, 255, 0.6);
-}
 
-.footer__form-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer__form-button {
@@ -170,11 +170,11 @@
   cursor: pointer;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.footer__form-button:hover,
-.footer__form-button:focus {
-  background: #188ce8;
+  &:hover,
+  &:focus {
+    background: #188ce8;
+  }
 }
 
 .footer__form-icon {

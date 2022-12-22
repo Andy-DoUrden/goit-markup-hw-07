@@ -43,11 +43,11 @@
   position: relative;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.header-nav__link:hover,
-.header-nav__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .current::after {
@@ -78,11 +78,11 @@
   padding: 5px 0 5px 0;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.header-address__link:hover,
-.header-address__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .header-address__icon {

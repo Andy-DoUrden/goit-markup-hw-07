@@ -51,11 +51,11 @@
 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.modal__exit-button:hover,
-.modal__exit-button:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .modal__exit-icon {
@@ -188,7 +188,7 @@
   fill: currentColor;
 }
 
-.modal__form-checkbox:checked+.modal__form-checkbox-icon-span {
+.modal__form-checkbox:checked + .modal__form-checkbox-icon-span {
   background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
@@ -227,9 +227,9 @@
   cursor: pointer;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.modal__form-button:hover,
-.modal__form-button:focus {
-  background: #188ce8;
+  &:hover,
+  &:focus {
+    background: #188ce8;
+  }
 }

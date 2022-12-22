@@ -36,9 +36,9 @@
   margin: 30px auto 0 auto;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-}
 
-.hero__button:hover,
-.hero__button:focus {
-  background: #188ce8;
+  &:hover,
+  &:focus {
+    background: #188ce8;
+  }
 }

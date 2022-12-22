@@ -101,9 +101,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.header-nav__link:hover,
-.header-nav__link:focus {
+.header-nav__link:hover, .header-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -142,9 +140,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.header-address__link:hover,
-.header-address__link:focus {
+.header-address__link:hover, .header-address__link:focus {
   color: var(--accent-color);
 }
 
@@ -196,9 +192,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.hero__button:hover,
-.hero__button:focus {
+.hero__button:hover, .hero__button:focus {
   background: #188ce8;
 }
 
@@ -398,9 +392,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.team__link:hover,
-.team__link:focus {
+.team__link:hover, .team__link:focus {
   background-color: var(--accent-color);
   color: #fff;
 }
@@ -451,9 +443,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.client__link:hover,
-.client__link:focus {
+.client__link:hover, .client__link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
@@ -573,9 +563,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.footer__social-link:hover,
-.footer__social-link:focus {
+.footer__social-link:hover, .footer__social-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -620,23 +608,18 @@ ul {
   background-color: inherit;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer__form-input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer__form-input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer__form-input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer__form-input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer__form-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -674,9 +657,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.footer__form-button:hover,
-.footer__form-button:focus {
+.footer__form-button:hover, .footer__form-button:focus {
   background: #188ce8;
 }
 
@@ -752,9 +733,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.modal__exit-button:hover,
-.modal__exit-button:focus {
+.modal__exit-button:hover, .modal__exit-button:focus {
   color: var(--accent-color);
 }
 
@@ -989,9 +968,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.modal__form-button:hover,
-.modal__form-button:focus {
+.modal__form-button:hover, .modal__form-button:focus {
   background: #188ce8;
 }
 
@@ -1027,13 +1004,10 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
 .features__button:first-child {
   padding: 6px 25px;
 }
-
-.features__button:hover,
-.features__button:focus {
+.features__button:hover, .features__button:focus {
   color: var(--secondary-color);
   background: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1059,9 +1033,7 @@ ul {
   -webkit-transition: 250ms;
   transition: 250ms;
 }
-
-.features__items:hover,
-.features__items:focus {
+.features__items:hover, .features__items:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
